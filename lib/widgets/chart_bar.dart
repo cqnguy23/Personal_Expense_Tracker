@@ -10,8 +10,11 @@ class BarChart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        FittedBox(
-          child: Text('\$${spendAmount.toStringAsFixed(0)}'),
+        Container(
+          height: 20,
+          child: FittedBox(
+            child: Text('\$${spendAmount.toStringAsFixed(0)}'),
+          ),
         ),
         SizedBox(
           height: 10,
@@ -36,6 +39,7 @@ class BarChart extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Theme.of(context).primaryColor,
+                    borderRadius: BorderRadius.circular(10),
                   ),
                 ),
               )
