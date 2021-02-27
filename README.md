@@ -4,6 +4,6 @@ A simple personal expense tracker that allows user to track their total expenses
 
 # Snapshots
 
-<img src="sn1.png" width="400"/>
-<img src="sn2.png" width="400"/>
-<img src="sn3.png" width="400"/>
+<img src="sn1.png" width="300"/>
+<img src="sn2.png" width="300"/>
+<img src="sn3.png" width="300"/>
